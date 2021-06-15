@@ -42,7 +42,7 @@ void Dijkstra(std::vector<pi> v[], int src, int n, std::vector<bool> &visited) {
 		for (int i = 0; i < v[t.second].size(); i++) {
 			pi adj = v[t.second][i];
 			int adjacent = adj.first;
-			int weight = adj.second; n
+			int weight = adj.second;
 			if (visited[adjacent] == false) {
 				pq.push(make_pair(weight + t.first, adjacent));
 			}
