@@ -60,7 +60,6 @@ void solve() {
 	cout << "No cycle is present" << endl;
 	return;
 }
-
 /**** main function ****/
 int main() {
 	ios::sync_with_stdio(false);
